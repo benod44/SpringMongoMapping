@@ -22,6 +22,7 @@ public class FlipKartController {
 	@PostMapping("/placeOrder")
 	private String placeOrder(@RequestBody User user) {
 		flipKartRepository.save(user);
+		System.out.println("this is test");
 		return "Order placed sucessfully";
 	}
 	
