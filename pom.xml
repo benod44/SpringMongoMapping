@@ -11,7 +11,7 @@
 	<groupId>com.ben</groupId>
 	<artifactId>Spring-Mongo-Mapping</artifactId>
 	<version>1.0</version>
-	  <packaging>jar</packaging>
+	  <packaging>war</packaging>
 
 	<name>Spring-Mongo-Mapping</name>
 	<description>MonoDB association</description>
